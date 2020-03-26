@@ -66,8 +66,6 @@ if get(g:, 'elite_mode')
 	nnoremap <Right> :vertical resize -2<CR>
 endif
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
 " ~~~~~~~ PLUG IN MANGER ~~~~~~~ 
 call plug#begin('~/.vim/plugged')
 
@@ -101,5 +99,4 @@ call plug#end()
 " ~~~~~~~ PLUG IN MANGER ~~~~~~~ 
 
 filetype plugin indent on
-
 
